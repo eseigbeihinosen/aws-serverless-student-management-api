@@ -33,10 +33,6 @@ The application demonstrates how to build a secure serverless backend that perfo
 
 ## 🚀 Project Overview
 
----
-
-## 🚀 Project Overview
-
 This project exposes RESTful-style HTTP endpoints using Amazon API Gateway (HTTP API). Incoming requests invoke an AWS Lambda function that securely retrieves database credentials from AWS Secrets Manager through a VPC Interface Endpoint and performs CRUD operations on an Amazon RDS MySQL database running inside private subnets.
 
 The solution demonstrates AWS best practices by:
